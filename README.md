@@ -9,7 +9,8 @@
 
 This project is for educational porpuses only. Pull request are welcome, but priority for my real-life students! Thank you for your cooperation!
 
-Site published at 
+Site published at https://front-end-by-rimantas.github.io/11-grupe-portfolio-new-per/.
+
 Design: [New-Per template](https://new-per.netlify.com/demo-3.html)
 
 ### Authors
