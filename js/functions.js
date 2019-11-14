@@ -4,23 +4,24 @@
 
 // hero
 
-// clients
-
 // about me
 
-// numbers
+// My skills
 
-// skills
+// My Resume
 
-// latest work
+// counter section
 
-// job history
+// My services
 
-// services
+// My Portfolio
 
-// testimonials
+// testimonel
 
-// contact me
+// Blog
+
+// Contact
 
 // footer
+
 
