@@ -18,12 +18,19 @@ header {
     .logo {
         display: inline-block;
         float: left;
-        height: 100%;
-    }
+        width: 100%;
+        size: 25px;
+        }
+        img{
+            display: inline;
+            width: 17%;
+            font-size: 25px;
+        }
     nav {
         display: inline-block;
-        float: right;
+        float: center;
         margin-top: 20px;
+        margin-left: 355px;
     }
         a {
             display: inline-block;
