@@ -58,14 +58,14 @@ header {
     display: inline-block;
     width: 100%;
     padding: 100px;
-    /* position: relative; */
+    position: relative;
     background: yellow;
 }
 .img-about {
     display: inline-block;
     float: left;
     height: 800px;
-    /* position: absolute; */
+    position: absolute;
 
 .title {
     display: inline-block;
