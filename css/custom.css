@@ -23,14 +23,15 @@ header {
         }
         img{
             display: inline;
-            width: 17%;
+            width: 34%;
             font-size: 25px;
+            
         }
     nav {
         display: inline-block;
         float: center;
         margin-top: 20px;
-        margin-left: 355px;
+        margin-left: 300px;
     }
         a {
             display: inline-block;
@@ -39,7 +40,15 @@ header {
             font-size: 18px;
             line-height: 30px;
             color: #9E9E9E;
+           
         }
+      
+          
+          
+          
+         
+          
+          
   
 /************************************************************/
 
