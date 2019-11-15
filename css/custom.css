@@ -54,6 +54,26 @@ header {
 
 /************************************************************/
 /* ABOUT ME */
+.container-about {
+    display: inline-block;
+    width: 100%;
+    padding: 100px;
+    /* position: relative; */
+    background: yellow;
+}
+.img-about {
+    display: inline-block;
+    float: left;
+    height: 800px;
+    /* position: absolute; */
+
+.title {
+    display: inline-block;
+    float: right;
+}    
+.
+
+}
 
 /************************************************************/
 
