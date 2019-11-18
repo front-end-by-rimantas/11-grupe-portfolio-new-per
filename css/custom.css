@@ -18,12 +18,20 @@ header {
     .logo {
         display: inline-block;
         float: left;
-        height: 100%;
-    }
+        width: 100%;
+        size: 25px;
+        }
+        img{
+            display: inline;
+            width: 34%;
+            font-size: 25px;
+            
+        }
     nav {
         display: inline-block;
-        float: right;
+        float: center;
         margin-top: 20px;
+        margin-left: 300px;
     }
         a {
             display: inline-block;
@@ -32,6 +40,7 @@ header {
             font-size: 18px;
             line-height: 30px;
             color: #9E9E9E;
+           
         }
 
   
@@ -89,6 +98,28 @@ header {
 
 /************************************************************/
 /* ABOUT ME */
+
+.container-about {
+    display: inline-block;
+    width: 100%;
+    padding: 100px;
+    position: relative;
+    background: yellow;
+}
+.img-about {
+    display: inline-block;
+    float: left;
+    height: 800px;
+    position: absolute;
+
+.title {
+    display: inline-block;
+    float: right;
+}    
+
+
+}
+
 
 /************************************************************/
 
