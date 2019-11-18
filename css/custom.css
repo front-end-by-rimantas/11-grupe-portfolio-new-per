@@ -42,19 +42,18 @@ header {
             color: #9E9E9E;
            
         }
-      
-          
-          
-          
-         
-          
-          
+
   
 /************************************************************/
 
 /************************************************************/
 /* HERO */
-.bg-primary {
+.hero {
+    background
+    display: inline-block;
+    
+    
+    text-align: center;
     position: relative;
     width: 100%;
     height: 100vh;
@@ -65,6 +64,35 @@ header {
     background-attachment: fixed;
     overflow: hidden;
 }
+    .hero > img {
+        display: inline-block;
+        margin-bottom: 60px;
+        
+    }
+    .hero > h1 {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 25px;
+        font-size: 60px;
+        line-height: 60px;
+        text-transform: uppercase;
+    }
+    .hero > p {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 60px;
+        font-size: 20px;
+        line-height: 25px;
+    }
+    .hero > .clock {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 60px;
+    }
+    .hero > form {
+        display: inline-block;
+        width: 90%;
+        margin: 0 5% 25px;
 /************************************************************/
 
 
