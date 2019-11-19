@@ -105,6 +105,7 @@ h3 {
       font-size: 29px;
       height: auto;
       margin-bottom: 45px;
+      margin-top: 30px;
 
   }
 .content {
@@ -114,7 +115,7 @@ h3 {
 }
     .content > .left {
         display: inline-block;
-        width: 50%;
+        width: 45%;
         float: left;
     }
     .content > .right {
@@ -180,6 +181,11 @@ h3 {
 
 /************************************************************/
 /* My Resume */
+ h4 {
+     margin-top: 220px;
+     font-size: 29px;
+     color: #484848;
+ }
 .resume .resume-content {
     position: relative;
     padding: 50px 20px;
