@@ -5,66 +5,101 @@
 
 /************************************************************/
 /* LAYOUT */
+.bg-primary {
+  background: var(--color-primary-dark);
+  background: -moz-linear-gradient(90deg, var(--color-primary-light) 0%, var(--color-primary-dark) 100%);
+  background: -webkit-linear-gradient(90deg, var(--color-primary-light) 0%, var(--color-primary-dark) 100%);
+  background: linear-gradient(90deg, var(--color-primary-light) 0%, var(--color-primary-dark) 100%);
+  color: var(--color-primary-light-anti);
+}
+.bg-grey {
+  background-color: var(--color-grey);
+  color: var(--color-grey-anti);
+}
 
-/************************************************************/
+h2 {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  line-height: 40px;
+}
+  h2::before {
+      content: '';
+      display: inline-block;
+      width: 50px;
+      height: 3px;
+      margin: -60px calc(50% - 25px);
+      background: var(--color-primary-dark);
+      background: -moz-linear-gradient(90deg, var(--color-primary-light) 0%, var(--color-primary-dark) 100%);
+      background: -webkit-linear-gradient(90deg, var(--color-primary-light) 0%, var(--color-primary-dark) 100%);
+      background: linear-gradient(90deg, var(--color-primary-light) 0%, var(--color-primary-dark) 100%);
+  }
+  h2::after {
+      content: '';
+      display: inline-block;
+      width: 80px;
+      height: 2px;
+      margin: 12px calc(50% - 40px);
+      background: var(--color-primary-dark);
+      background: -moz-linear-gradient(90deg, var(--color-primary-light) 0%, var(--color-primary-dark) 100%);
+      background: -webkit-linear-gradient(90deg, var(--color-primary-light) 0%, var(--color-primary-dark) 100%);
+      background: linear-gradient(90deg, var(--color-primary-light) 0%, var(--color-primary-dark) 100%);
+  }
+  h2.up {
+      text-transform: uppercase;
+  }
 
 /************************************************************/
 /* HEADER */
-header {
-    display: inline-block;
-    width: 100%;
-    height: 60px;
-  }
-    .logo {
-        display: inline-block;
-        float: left;
-        width: 100%;
-        size: 25px;
-        }
-        img{
-            display: inline;
-            width: 34%;
-            font-size: 25px;
-            
-        }
-    nav {
-        display: inline-block;
-        float: right;
-        margin-top: 10px;
-        margin-bottom: 20px;
-        
-    }
-        a {
-            display: inline-block;
-            margin-left: 30px;
-            text-decoration: none;
-            font-size: 18px;
-            line-height: 30px;
-            color: #9E9E9E;
-           
-        }
 
-  
 /************************************************************/
 
 /************************************************************/
 /* HERO */
-.header {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background: url("../img/header.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    overflow: hidden;
-  }
-.mb-30{
-    text-transform: uppercase;
-    text-align: center;
-    color: white;
+#hero {
+  min-height: 100vh;
+  background-image: url(../img/header.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 200px 0;
+  text-align: center;
+  position: relative;
 }
+  #hero > .row {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+  }
+  #hero .hero-title {
+      text-transform: uppercase;
+      font-size: 32px;
+      line-height: 40px;
+      color: lightgrey;
+  }
+  #hero .hero-subtitle {
+      font-size: 18px;
+      line-height: 25px;
+      margin-bottom: 40px;
+      color: lightgrey;
+      text-transform: uppercase;
+  }
+  #hero .animated-text {
+      font-size: 72px;
+      line-height: 120px;
+      color:#fff;
+      text-transform: uppercase;
+  }
+  #hero .mouse {
+      position: absolute;
+      size: 200%;
+      left: calc(50% - 20px);
+      bottom: 40px;
+  }
+/************************************************************/
+
 /************************************************************/
 
 
@@ -84,10 +119,8 @@ header {
     height: 800px;
     position: absolute;
 
-.title {
-    display: inline-block;
-    float: right;
-}    
+
+   
 
 }
 /************************************************************/
