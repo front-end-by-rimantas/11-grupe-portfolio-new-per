@@ -106,23 +106,25 @@ h2 {
 /************************************************************/
 /* ABOUT ME */
 
-.container-about {
-    display: inline-block;
-    width: 100%;
-    padding: 100px;
-    position: relative;
-    background: yellow;
+#about .photo {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
 }
-.img-about {
-    display: inline-block;
-    float: left;
-    height: 800px;
-    position: absolute;
+  #about .photo > img {
+      display: inline-block;
+      width: 380px;
+      object-fit: cover;
+      margin-left: 150px;
+  }
+
+
+
 
 
    
 
-}
 /************************************************************/
 
 /************************************************************/
@@ -131,14 +133,14 @@ h2 {
 background-color: #F4F5F8;
  }
 
-h3 {
-    color: #484848;
+h2 {
+    /* color: #484848;
       display: ruby;
       width: 119px;
       font-size: 29px;
       height: auto;
       margin-bottom: 45px;
-      margin-top: 30px;
+      margin-top: 30px; */
 
   }
 .content {
@@ -156,12 +158,12 @@ h3 {
         width: 50%;
         float: right;
     }
-    .content h3 {
+    /* .content h2 {
         display: inline-block;
         width: 100%;
         margin-bottom: 30px;
         text-transform: uppercase;
-    }
+    } */
 
 @media (max-width: 1200px) {
     .content {
