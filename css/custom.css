@@ -5,50 +5,7 @@
 
 /************************************************************/
 /* LAYOUT */
-.bg-primary {
-  background: var(--color-primary-dark);
-  background: -moz-linear-gradient(90deg, var(--color-primary-light) 0%, var(--color-primary-dark) 100%);
-  background: -webkit-linear-gradient(90deg, var(--color-primary-light) 0%, var(--color-primary-dark) 100%);
-  background: linear-gradient(90deg, var(--color-primary-light) 0%, var(--color-primary-dark) 100%);
-  color: var(--color-primary-light-anti);
-}
-.bg-grey {
-  background-color: var(--color-grey);
-  color: var(--color-grey-anti);
-}
 
-h2 {
-  display: inline-block;
-  width: 100%;
-  text-align: center;
-  font-size: 40px;
-  line-height: 40px;
-}
-  h2::before {
-      content: '';
-      display: inline-block;
-      width: 50px;
-      height: 3px;
-      margin: -60px calc(50% - 25px);
-      background: var(--color-primary-dark);
-      background: -moz-linear-gradient(90deg, var(--color-primary-light) 0%, var(--color-primary-dark) 100%);
-      background: -webkit-linear-gradient(90deg, var(--color-primary-light) 0%, var(--color-primary-dark) 100%);
-      background: linear-gradient(90deg, var(--color-primary-light) 0%, var(--color-primary-dark) 100%);
-  }
-  h2::after {
-      content: '';
-      display: inline-block;
-      width: 80px;
-      height: 2px;
-      margin: 12px calc(50% - 40px);
-      background: var(--color-primary-dark);
-      background: -moz-linear-gradient(90deg, var(--color-primary-light) 0%, var(--color-primary-dark) 100%);
-      background: -webkit-linear-gradient(90deg, var(--color-primary-light) 0%, var(--color-primary-dark) 100%);
-      background: linear-gradient(90deg, var(--color-primary-light) 0%, var(--color-primary-dark) 100%);
-  }
-  h2.up {
-      text-transform: uppercase;
-  }
 
 /************************************************************/
 /* HEADER */
@@ -126,6 +83,50 @@ h2 {
    
 
 /************************************************************/
+ /* title */
+ .title {
+  text-align: center;
+  position: relative;
+  margin: auto;
+  padding: 0;
+  display: block !important;
+  z-index: 1;
+}
+.title h2 {
+  position: relative;
+  display: inline-block !important;
+  padding-bottom: 10px;
+  color:#48527A;
+  font-size: 2.2rem;
+  font-weight: 800;
+  text-transform: capitalize;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid white;
+}
+.title h2 span {
+  color: #9c27b0;
+}
+.title h2::before {
+  content: '';
+  width: 65px;
+  height: 1px;
+  background-color:#9c27b0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.title2 h2 {
+  color: #fff;
+}
+.title2 h2::before {
+  background-color: #fff;
+}
+
+.button-hot {
+  background-color: #9c27b0 !important;
+}
+
 
 /************************************************************/
 /* SKILLS */
@@ -216,7 +217,7 @@ h2 {
 
 /************************************************************/
 /* My Resume */
- h4 {
+ h2 {
      margin-top: 220px;
      font-size: 29px;
      color: #484848;
