@@ -6,7 +6,6 @@
 /************************************************************/
 /* LAYOUT */
 
-/************************************************************/
 
 /************************************************************/
 /* HEADER */
@@ -15,41 +14,305 @@
 
 /************************************************************/
 /* HERO */
-
+#hero {
+  min-height: 100vh;
+  background-image: url(../img/header.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 200px 0;
+  text-align: center;
+  position: relative;
+}
+  #hero > .row {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translateY(-50%);
+  }
+  #hero .hero-title {
+      text-transform: uppercase;
+      font-size: 32px;
+      line-height: 40px;
+      color: lightgrey;
+  }
+  #hero .hero-subtitle {
+      font-size: 18px;
+      line-height: 25px;
+      margin-bottom: 40px;
+      color: lightgrey;
+      text-transform: uppercase;
+  }
+  #hero .animated-text {
+      font-size: 72px;
+      line-height: 120px;
+      color:#fff;
+      text-transform: uppercase;
+  }
+  #hero .mouse {
+      position: absolute;
+      size: 200%;
+      left: calc(50% - 20px);
+      bottom: 40px;
+  }
 /************************************************************/
 
 /************************************************************/
-/* CLIENTS */
 
-/************************************************************/
 
 /************************************************************/
 /* ABOUT ME */
 
-/************************************************************/
+#about .photo {
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+  #about .photo > img {
+      display: inline-block;
+      width: 380px;
+      object-fit: cover;
+      margin-left: 150px;
+  }
+  div#about.container{
+    background-color: white;
+  }
+
+
+
+
+
+   
 
 /************************************************************/
-/* NUMBERS */
+ /* title */
+ .title {
+  text-align: center;
+  position: relative;
+  margin: auto;
+  padding: 0;
+  display: block !important;
+  z-index: 1;
+}
+.title h2 {
+  position: relative;
+  display: inline-block !important;
+  padding-bottom: 10px;
+  color:#48527A;
+  font-size: 2.2rem;
+  font-weight: 800;
+  text-transform: capitalize;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid white;
+}
+.title h2 span {
+  color: #9c27b0;
+}
+.title h2::before {
+  content: '';
+  width: 65px;
+  height: 1px;
+  background-color:#9c27b0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
 
-/************************************************************/
+.title2 h2 {
+  color: #fff;
+}
+.title2 h2::before {
+  background-color: #fff;
+}
+
+.button-hot {
+  background-color: #9c27b0 !important;
+}
+
 
 /************************************************************/
 /* SKILLS */
+ div.container {
+background-color: #F4F5F8;
+ }
+
+h2 {
+    /* color: #484848;
+      display: ruby;
+      width: 119px;
+      font-size: 29px;
+      height: auto;
+      margin-bottom: 45px;
+      margin-top: 30px; */
+
+  }
+.content {
+    display: inline-block;
+    width: 1100px;
+    margin: 60px calc( (100% - 1100px) / 2 );
+}
+    .content > .left {
+        display: inline-block;
+        width: 45%;
+        float: left;
+    }
+    .content > .right {
+        display: inline-block;
+        width: 50%;
+        float: right;
+    }
+    /* .content h2 {
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+    } */
+
+@media (max-width: 1200px) {
+    .content {
+        width: 900px;
+        margin: 60px calc( (100% - 900px) / 2 );
+    }
+}
+@media (max-width: 1000px) {
+    .content {
+        width: 700px;
+        margin: 60px calc( (100% - 700px) / 2 );
+    }
+        .two-in-row {
+            width: 100%;
+        }
+        .two-in-row:last-of-type {
+            margin-left: 0;
+        }
+}
+@media (max-width: 800px) {
+    .content {
+        width: 500px;
+        margin: 60px calc( (100% - 500px) / 2 );
+    }
+        .content > .left {
+            width: 100%;
+            margin-bottom: 60px;
+        }
+        .content > .right {
+            width: 100%;
+        }
+    .footer > .btn {
+        display: none;
+    }
+}
+@media (max-width: 600px) {
+    .content {
+        width: 100%;
+        margin: 60px 0;
+        padding: 0 20px;
+    }
+}
+.content{
+    display:inline-block;
+}
+
+
 
 /************************************************************/
 
 /************************************************************/
-/* LATEST WORK */
+/* My Resume */
+h2 {
+  margin-top: 220px;
+  font-size: 29px;
+  color: #484848;
+}
+.resume .resume-content {
+ position: relative;
+ padding: 100px 20px;
+}
+.resume .resume-content .icon {
+ background-color: #2e353e;
+ width: 40px;
+ height: 40px;
+ line-height: 40px;
+ border-radius: 50%;
+ position: absolute;
+ top: 9px;
+ text-align: center;
+}
+.resume .resume-content .icon i {
+ font-size: 1rem;
+ color: #fff;
+}
+.resume .resume-content ul {
+ padding: 0;
+}
+.resume .resume-content ul li {
+ position: relative;
+ padding: 30px 30px 10px;
+ margin-bottom: -10px;
+}
+.resume .resume-content ul li::after {
+ position: absolute;
+ content: "";
+ top: 40px;
+ width: 12px;
+ height: 12px;
+ border-radius: 50%;
+ border: 2px solid #d6b161;
+ background-color: #2e353e;
+}
+.resume .resume-content ul li span {
+ font-size: .8rem;
+ font-weight: 500;
+}
+.resume .resume-content ul li h5 {
+ color: #9c27b0;
+ font-size: .9rem;
+ font-weight: 600;
+ margin-top: 15px;
+}
+.resume .resume-content ul li h6 {
+ color: #4b4b4b;
+ font-size: .8rem;
+ text-transform: capitalize;
+ font-weight: 600;
+}
+.resume .resume-content .right {
+ border-left: 1px solid #f4f4f4;
+}
+.resume .resume-content .right li::after {
+ left: -6px;
+}
+.resume .resume-content .left {
+ border-right: 1px solid #f4f4f4;
+}
+.resume .resume-content .left li {
+ position: relative;
+}
+.resume .resume-content .left li::after {
+ right: -6px !important;
+}
+.resume .right-1 .icon {
+ left: 0;
+}
+.resume .left-1 .icon {
+ right: 0;
+}
 
 /************************************************************/
 
 /************************************************************/
-/* JOB HISTORY */
+/* Counter secion */
 
 /************************************************************/
 
 /************************************************************/
-/* SERVICES */
+/* My Services*/
+
+/************************************************************/
+
+/************************************************************/
+/*My Portfolio */
 
 /************************************************************/
 
@@ -59,9 +322,17 @@
 /************************************************************/
 
 /************************************************************/
-/* CONTACT ME */
+/* Blog */
 
 /************************************************************/
+
+
+/************************************************************/
+/* Contact*/
+
+/************************************************************/
+
+
 
 /************************************************************/
 /* FOOTER */
