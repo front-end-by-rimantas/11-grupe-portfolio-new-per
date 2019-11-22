@@ -304,6 +304,50 @@ h2 {
 /************************************************************/
 /* Counter secion */
 
+.bg-achievements {
+  background-image: url(/img/client.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+.number {
+color:white;
+}
+
+.achievement {
+  display: inline-block;
+  padding: 20px 0;
+  text-align: center;
+}
+  .achievement > .center {
+      display: inline-block;
+  }
+  .achievement i {
+      display: inline-block;
+      font-size: 50px;
+      line-height: 60px;
+      text-align: right;
+      color: #9c27b0;
+  }
+  .achievement .texts {
+      display: inline-block;
+      margin-left: 15px;
+      text-align: left;
+      color:#848283;
+  }
+      .achievement .texts > .number {
+          display: inline-block;
+          font-size: 40px;
+          line-height: 50px;
+      }
+      .achievement .texts > .title {
+          display: inline-block;
+          font-size: 18px;
+          line-height: 20px;
+          text-transform: uppercase;
+      }
+
+
 /************************************************************/
 
 /************************************************************/
