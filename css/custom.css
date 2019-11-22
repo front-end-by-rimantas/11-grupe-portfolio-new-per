@@ -308,6 +308,42 @@ h2 {
 
 /************************************************************/
 /* My Services*/
+.service {
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  
+}
+  .service > i {
+      display: inline-block;
+      width: 60px;
+      text-align: center;
+      background-color: white;
+      border: 3px solid white;
+      border-radius: 50%;
+      font-size: 30px;
+      line-height: 50px;
+      color: #9c27b0;
+      transition: 1s;
+  }
+  .service > i:hover{
+    background-color: #9c27b0 ;
+    color: white;
+  }
+
+  .service > h3 {
+      display: inline-block;
+      width: 100%;
+      margin: 10px 0;
+      font-size: 20px;
+      line-height: 20px;
+  }
+  .service > p {
+      display: inline-block;
+      width: 100%;
+      font-size: 15px;
+      line-height: 20px;
+  }
 
 /************************************************************/
 
