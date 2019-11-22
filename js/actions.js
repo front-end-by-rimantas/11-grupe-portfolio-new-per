@@ -11,6 +11,7 @@
 // My Resume
 
 // counter section
+renderAchievements( numbers );
 
 // My services
 
