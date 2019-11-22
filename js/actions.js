@@ -13,6 +13,7 @@
 // counter section
 
 // My services
+renderServices( services );
 
 // My Portfolio
 
