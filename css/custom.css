@@ -305,7 +305,7 @@ h2 {
 /* Counter secion */
 
 .bg-achievements {
-  background-image: url(/img/client.jpg);
+  background-image: url(../img/client.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
