@@ -106,6 +106,8 @@
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid white;
 }
+
+
 .title h2 span {
   color: #9c27b0;
 }
@@ -137,16 +139,16 @@
 background-color: #F4F5F8;
  }
 
-h2 {
-    /* color: #484848;
+/* h2 {
+    color: #484848;
       display: ruby;
       width: 119px;
       font-size: 29px;
       height: auto;
       margin-bottom: 45px;
-      margin-top: 30px; */
+      margin-top: 30px;
 
-  }
+  } */
 .content {
     display: inline-block;
     width: 1100px;
@@ -221,7 +223,8 @@ h2 {
 /************************************************************/
 /* My Resume */
 h2 {
-  margin-top: 220px;
+  margin-top:20px;
+  margin-right: 343px;
   font-size: 29px;
   color: #484848;
 }
@@ -298,6 +301,7 @@ h2 {
 .resume .left-1 .icon {
  right: 0;
 }
+
 
 /************************************************************/
 
@@ -409,7 +413,130 @@ color:white;
 
 /************************************************************/
 /* Contact*/
+.col-md-5{
+  display:inherit;
+  height: 475px;
+  width: 36%;
+  
+}
+.col-md-7{
+  display: inline-block;
+  width:55%;
+  block-size: 475px;
+  
+}
+.contact {
+  background-color: #f4f5f8;
+  /* overflow: hidden; */
+}
+.contact .cont-form {
+  background-color: #fff;
+  padding: 2rem;
+}
+.contact .cont-form .full-form {
+  padding: 0 1rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+.contact .cont-form .full-form .form .form-group {
+  
+  position: relative;
+  display: table;
+}
+.contact .cont-form .full-form .form .form-group label {
+  display: table-cell;
+  vertical-align: middle;
+  border: none;
+  padding: 0 .2rem;
+}
+.contact .cont-form .full-form .form .form-group label span {
+  width: 15px;
+}
+.contact .cont-form .full-form .form .form-group input {
+  width: 344%;
+  margin-top: 15px;
+  display: table-cell;
+  white-space: nowrap;
+  border: none;
+  border-radius: 0;
+  background-color: #f4f5f8;
+  padding: 15px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+.contact .cont-form .full-form .form textarea {
+  background-color: #f4f5f8;
+  width: 311%;
+  margin-top: 15px;
+  max-height: 120px;
+  min-height: 120px;
+  border: none;
+  border-radius: 0;
+  padding: 15px;
+}
+.contact .cont-form .full-form .form button {
+  border-radius: 27px;
+  width: 100%;
+  block-size: 50px;
+  margin-top: 15px;
+  color: white;
+}
+.contact .contact-info {
+  position: relative;
+  background: url("../img/contact.jpg");
+  background-size: cover;
+  padding: 4rem;
+}
+.contact .contact-info::before {
+  background: rgba(156, 39, 176, 0.9);
+}
+.contact .contact-info h4 {
+  position: relative;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 800;
+  text-transform: capitalize;
+}
+.contact .contact-info p {
+  position: relative;
+  color: #fff;
+}
+.contact .contact-info .item-info {
+  position: relative;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+.contact .contact-info .item-info span {
+  width: 40px;
+  height: 40px;
+  margin: 5px 5px 5px 0;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+.contact .contact-info .item-info h5 {
+  display: inline-block;
+  color: #fff;
+  font-size: larger;
+  margin-top: 25px;
+}
 
+/** Overlay **/
+.overlay{
+  position: relative;
+}
+.overlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
 /************************************************************/
 
 
