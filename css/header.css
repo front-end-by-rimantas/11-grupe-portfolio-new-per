@@ -97,9 +97,9 @@
             }
 
     #main_header.header-transparent {
-        background-color: transparent;
+        /* background-color: transparent; */
         color: #333;
-        padding: 50px 0;
+        padding: 19px 0;
     }
 
 @media (max-width: 900px) {

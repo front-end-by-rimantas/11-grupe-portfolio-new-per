@@ -12,7 +12,7 @@
     
     
 </head>
-<body>
+<body></body>
    <!-- header start -->
    <header class="container-full header-transparent" id="main_header">
     <div class="row">
@@ -189,6 +189,7 @@
 
         </div> 
 </div>
+</div>
 
 <!-- My skills end -->
 
@@ -263,9 +264,10 @@
                             </ul>
                           </div>
                         </div>
-              
-                      </div> <!-- ./ Row -->
-                    </div> <!-- ./ Container -->
+                      </div> 
+                    </div>
+                </div>
+                     
                   </section>
 
 
@@ -273,9 +275,15 @@
     
 <!-- My Resume end -->
 
-<!-- counter section start -->
+<!-- number start -->
+<div class="container bg-primary bg-achievements">
+        <div class="row" id="achievements">
+            
+        </div>
+    </div>
+          
 
-<!-- counter section end -->
+<!-- number end -->
 
 <!-- My services start -->
 <div class="container">
@@ -283,6 +291,11 @@
                 <h2 class="title"><span>My</span> Services</h2>
               </div>
 </div>
+<div class="row" id="services_list">
+    
+</div>
+
+
 <!-- My services end -->
 
 <!-- My Portfolio start -->
@@ -303,13 +316,173 @@
               </div>
 </div>
 <!-- Blog end -->
+<section class="blog section-padding" data-scroll-index='5'>
+    <div class="container">
+      <div class="row">
+        <!-- Title -->
+        <!-- <div class="title col-sm-12 text-center mb-50">
+          <h4><span>Latest </span> Blog</h4>
+        </div> -->
 
-<!-- Contact start -->
-<div class="container">
-        <div class="title col-sm-12 text-center mb-50">
-                <h2 class="title"><span>Get</span> in Touch</h2>
+        <!-- Item Blog -->
+        <div class="col-lg-4 sm-mb-50">
+          <div class="item-blog">
+            <!-- part img-->
+            <div class="img-blog">
+              <img src="./img/1.jpg" alt="">
+              <a href="#">UX/UI</a>
+            </div>
+            <!-- part content -->
+            <div class="content-blog">
+              <a href="#"><h4>Light Trails on Highway</h4></a>
+              <p>Quisque dui at erat auctor pulvinar nisl felis, gravida et aliquam vitae, aliquet quis nibh.</p>
+
+              <div class="info-img">
+                <div class="img-client">
+                  <img src="./img/10.jpg" alt="" class="b-sh-2">
+                </div>
+                <div class="info">
+                  <h5><span>By : </span> Jack Daniel</h5>
+                  <h6>25 june 2017</h6>
+                </div>
               </div>
-</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item Blog -->
+        <div class="col-lg-4 sm-mb-50">
+          <div class="item-blog">
+            <!-- part img-->
+            <div class="img-blog">
+              <img src="./img/20.jpg" sizes="40x40" alt="">
+              <a href="#">Web Design</a>
+            </div>
+            <!-- part content -->
+            <div class="content-blog">
+              <a href="#"><h4>Riomaggiore Coast Scene</h4></a>
+              <p>Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit, incid idunt ut labore et.</p>
+
+              <div class="info-img">
+                <div class="img-client">
+                  <img src="./img/2.jpg" alt="" class="b-sh-2">
+                </div>
+                <div class="info">
+                  <h5><span>By : </span> Jack Daniel</h5>
+                  <h6>25 june 2017</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item Blog -->
+        <div class="col-lg-4">
+          <div class="item-blog">
+            <!-- part img-->
+            <div class="img-blog">
+              <img src="./img/30.jpg" alt="">
+              <a href="#">development</a>
+            </div>
+            <!-- part content -->
+            <div class="content-blog">
+              <a href="#"><h4>10 Secrets Tips For Web Design</h4></a>
+              <p>Lorem ipsum dolor sit amet, conse ctetur adipi sicing elit, incid idunt ut labore et.</p>
+
+              <div class="info-img">
+                <div class="img-client">
+                  <img src="./img/3.jpg" alt="" class="b-sh-2">
+                </div>
+                <div class="info">
+                  <h5><span>By : </span> Jack Daniel</h5>
+                  <h6>25 june 2017</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- ./ Row -->
+    </div> <!-- ./ Container -->
+  </section>
+<!-- Contact start -->
+
+
+ <section class="contact section-padding" data-scroll-index='6'>
+      <div class="container">
+        <div class="row">
+
+          <!-- contact form -->
+          <div class="col-md-7 cont-form">
+            <div class="full-form">
+              <!-- Title -->
+              <div class="title col-sm-12 mb-50" id="contact">
+                <h2><span>Get</span> In Touch</h2>
+              </div>
+
+              <form id="contact-form" class="form" method="post" action="contact.php">
+                <div class="controls">
+                  <div class="messages"></div>
+                  <div class="row">
+                    <div class="col-md-12 form-group">
+                        <label for="form_name" class="input-group-addon">
+                          <span class="zmdi zmdi-account"></span>
+                        </label>
+                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Your Full Name Here" required="required" data-error="name is required.">
+                    </div>
+
+                    <div class="col-md-12 form-group">
+                      <label for="form_email" class="input-group-addon">
+                        <span class="zmdi zmdi-email"></span>
+                      </label>
+                      <input id="form_email" type="email" name="email" class="form-control" placeholder="You Email Here" required="required" data-error="Valid email is required.">
+                    </div>
+
+                    <div class="col-md-12 form-group mb-30">
+                      <label for="form_message" class="input-group-addon">
+                        <span class="zmdi zmdi-comment"></span>
+                      </label>
+                      <textarea id="form_message" name="message" class="form-control" placeholder="Message For Me" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                    </div>
+                    <div class="col-md-12">
+                      <button class="button button-hot hvr-shutter-out-horizontal">Send Message</button>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <!-- contact Info -->
+          <div class="col-md-5 contact-info overlay">
+            <div class="row">
+              <!-- Part Header -->
+              <div class="head">
+                <h4 class="mb-30">Contact Info.</h4>
+                <p>Lorem ipsum dolor sit amet, sit augue theophrastus ex. Nec ne dicam impedit perpetua, legimus fierent molestiae ei nec.</p>
+              </div>
+              <!-- Item Info -->
+              <div class="item-info col-sm-12 mb-10">
+                <!-- <span class="zmdi zmdi-headset-mic"></span> -->
+                <h5>+00123456789</h5>
+              </div>
+              <!-- Item Info -->
+              <div class="item-info col-sm-12 mb-10">
+                <!-- <span class="zmdi zmdi-mail-send"></span> -->
+                <h5>Demo@gmail.com</h5>
+              </div>
+              <!-- Item Info -->
+              <div class="item-info col-sm-12 mb-10">
+                <!-- <span class="zmdi zmdi-pin"></span> -->
+                <h5>3481 Melrose Place, Los Angeles</h5>
+              </div>
+
+            </div>
+          </div>
+
+        </div> <!-- ./ Row -->
+      </div> <!-- ./ Container -->
+    </section>
 <!-- Contact end -->
 
 <!-- footer start -->
