@@ -17,6 +17,7 @@ renderAchievements( numbers );
 renderServices( services );
 
 // My Portfolio
+renderPortfolio( works );
 
 // testimonel
 
