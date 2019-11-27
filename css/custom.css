@@ -825,5 +825,19 @@ color:white;
 
 /************************************************************/
 /* FOOTER */
+.footer {
+  background-color: #282830;
+  padding: 2rem;
+  border-top: 1px solid #e0e0e0;
+  color: #E0E0E0;
+}
+  h7{
+    font-size: .8rem;
+    color: #E0E0E0;
+}
+div.a {
+  text-align: center;
+}
+
 
 /************************************************************/
