@@ -107,29 +107,76 @@
 /************************************************************/
 /* ABOUT ME */
 
-#about .photo {
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-}
-  #about .photo > img {
-      display: inline-block;
-      width: 380px;
-      object-fit: cover;
-      margin-left: 150px;
-  }
-  div#about.container{
+  #about.container {
+    display: inline-block;
+    width: 100%;
     background-color: white;
   }
+  .col-6 col-md-12 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+  }
+  .photo-about {
+    display: inline-block;
+    background: url("../img/about.jpg");
+    background-size: cover;
+    padding-left: 100px;
+    margin-left: 100px;
+    padding: 4rem;
+    height: 500px;
+    width: 360px;
+  }
+  .info-col {
+    display: inline-block;
+    position: absolute;
+    width: 50%;
+   }
+  .info-mb-20 {
+    display: inline-block;
+    position: relative;
+    float: right;
+    width: 50%;
+  }
+  .mb-20 {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #282830;
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 1.8px;
+    margin-bottom: 20px;
 
-
-
-
-
-   
-
-/************************************************************/
+}
+  .mb-21 {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+    font-size: 1em;
+    line-height: 1.85714286em;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+  }
+  .data-coljd27 {
+    display: inline-block;
+    color: #282830;
+    font-size: .9rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .data-colemloc {
+    display: inline-block;
+    position: relative;
+    color: #282830;
+    font-size: .9rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+   }
+   /************************************************************/
  /* title */
  .title {
   text-align: center;
