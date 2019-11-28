@@ -65,7 +65,8 @@
 
   #about.container {
     display: inline-block;
-    width: 100%;
+    width: 50%;
+    height: 50%;
     background-color: white;
   }
   .col-6 col-md-12 {
@@ -87,11 +88,12 @@
   .info-col {
     display: inline-block;
     position: absolute;
+    padding-right: 100px;
     width: 50%;
    }
   .info-mb-20 {
     display: inline-block;
-    position: relative;
+    /* position: relative; */
     float: right;
     width: 50%;
   }
@@ -116,22 +118,32 @@
     font-weight: 400;
     margin-bottom: 20px;
 }
-  }
-  .data-coljd27 {
+  .row-25 {
     display: inline-block;
+    font-family:'Roboto', sans-serif;
     color: #282830;
     font-size: .9rem;
     font-weight: 600;
-    margin-bottom: 10px;
+    text-transform: uppercase;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
   }
-  .data-colemloc {
+  .data-column {
     display: inline-block;
-    position: relative;
-    color: #282830;
-    font-size: .9rem;
-    font-weight: 600;
-    margin-bottom: 10px;
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+  }
+  span.name {
+    display: table;
+    clear: both;
+  }
+  span.john {
+     color: red;
    }
+
    /************************************************************/
  /* title */
  .title {
