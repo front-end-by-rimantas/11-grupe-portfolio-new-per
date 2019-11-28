@@ -332,7 +332,9 @@ h2 {
  position: absolute;
  top: 9px;
  text-align: center;
+ padding: 12px;
 }
+
 .resume .resume-content .icon i {
  font-size: 1rem;
  color: #fff;
@@ -344,6 +346,7 @@ h2 {
  position: relative;
  padding: 30px 30px 10px;
  margin-bottom: -10px;
+ list-style-type: none;
 }
 .resume .resume-content ul li::after {
  position: absolute;
@@ -357,19 +360,19 @@ h2 {
 }
 .resume .resume-content ul li span {
  font-size: .8rem;
- font-weight: 500;
+ font-size: 15px;
 }
 .resume .resume-content ul li h5 {
  color: #9c27b0;
  font-size: .9rem;
- font-weight: 600;
+ font-size: 20px;
  margin-top: 15px;
 }
 .resume .resume-content ul li h6 {
  color: #4b4b4b;
  font-size: .8rem;
  text-transform: capitalize;
- font-weight: 600;
+ font-size: 15px;
 }
 .resume .resume-content .right {
  border-left: 1px solid #f4f4f4;
@@ -391,6 +394,9 @@ h2 {
 }
 .resume .left-1 .icon {
  right: 0;
+}
+.text-right {
+  text-align: right;
 }
 
 
