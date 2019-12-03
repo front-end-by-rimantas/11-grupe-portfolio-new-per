@@ -8,7 +8,7 @@
         margin-bottom: 40px;
     }
         .gallery > .filter > .item {
-            display: inline-block;
+            /* display: inline-block;
             padding: 5px 20px;
             font-size: 13px;
             line-height: 20px;
@@ -16,21 +16,56 @@
             font-weight: bold;
             cursor: pointer;
             border-radius: 15px;
-            background-color: #fff;
+            background-color: none; */
+            display: inline-block;
+            position: relative;
+            margin: 0px 10px;
+            padding: 5px 5px;
+            font-size: 20px;
+            text-transform: capitalize;
+            letter-spacing: 2px;
+            color: #777;
+            cursor: pointer;
+            -webkit-transition: all .5s;
+            transition: all .5s;
+            
         }
             .gallery > .filter > .item + .item {
                 margin-left: 20px;
             }
             .gallery > .filter > .item:hover {
-                color: var(--color-primary-dark);
+                color: #9c27b0;
+            }
+            .gallery > .filter > .item:hover:after {
+                content: '';
+                position: absolute;
+                left: 45%;
+                top: 30px;
+                width: 5px;
+                height: 5px;
+                border-radius: 50%;
+                background-color: #9c27b0;
+                display: block;
             }
             .gallery > .filter > .item.active {
-                background: var(--color-primary-dark);
-                background: -moz-linear-gradient(90deg, var(--color-primary-light) 0%, var(--color-primary-dark) 100%);
-                background: -webkit-linear-gradient(90deg, var(--color-primary-light) 0%, var(--color-primary-dark) 100%);
-                background: linear-gradient(90deg, var(--color-primary-light) 0%, var(--color-primary-dark) 100%);
-                color: var(--color-primary-light-anti);
+                color: #9c27b0;
+                border-top: 1px solid #f7f7f7;
+                -webkit-transition: all .5s;
+                transition: all .5s;
             }
+            .gallery > .filter > .item.active::after{
+                content: '';
+                position: absolute;
+                left: 45%;
+                top: 30px;
+                width: 5px;
+                height: 5px;
+                border-radius: 50%;
+                background-color: #9c27b0;
+                display: block;
+            }
+
+
     .gallery > .list {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
