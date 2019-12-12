@@ -4,17 +4,16 @@
     top: 0;
     right: 0;
     z-index: 1;
-    background-color: #000C;
+    background: rgba(32, 25, 25, 0.2);
     color: #fff;
     padding: 35px 0;
     transition: all 0.2s;
 }
     #main_header .logo {
         display: inline-block;
-        float: left;
-        width: 5%;
-        height: auto;
-        margin-left: 300px;
+        /* float: left; */
+        width: 100px;
+        margin-left: 100px;
         
     }
     #main_header i {
@@ -33,13 +32,12 @@
     #main_header nav {
         display: inline-block;
         float: right;
-        margin-right: 300px;
     }
         #main_header nav > a {
             display: inline-block;
             float: left;
             margin: 0 15px;
-            color: #fff;
+            color: white;
             font-size: 16px;
             line-height: 25px;
             text-transform: capitalize;
